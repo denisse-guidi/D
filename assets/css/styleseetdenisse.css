@@ -1,0 +1,37 @@
+body{
+    font-family: 'Barlow', sans-serif;
+}
+#main-menu, nav{
+    border: 1px solid greenyellow;
+    display: inline-block;
+    right: 0;
+    position: relative
+}
+#main-menu li{
+    display: inline;
+    margin: right;
+}
+header{
+    border: 1px solid red;
+    position: relative;
+    text-align: justify;
+}
+#brand{
+    border: 1px solid blue;
+    display: inline-block;
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+.message{
+    border: 3px solid rgb(14, 14, 13);
+    margin: auto;
+    max-width: 40%;
+   text-align: left;
+   font-size: 6rem;
+   font-weight: 400;
+   line-height: 5.7rem
+   
+}
+.message-center{
+    text-align: center;
+}
