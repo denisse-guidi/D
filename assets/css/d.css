@@ -1,35 +1,47 @@
 body{
     font-family:'barlow';
+    margin: 0%;
 }
 header{
-    border: 2px solid salmon;
+    border-bottom: 3px solid rgb(0, 0, 0);
+    padding: 0.4rem;
 }
 #brand{
-    border: 2px solid rgb(158, 37, 112);
     display: inline;
+    font-size: 1.5rem;
 }
-
-.main-menu{
-    border: 2px solid darkturquoise;
+nav{
+    display: inline; 
+    right: 2rem;
+    position: absolute;
+    top: 0.9rem;
+}
+ul.main-menu{
     display: inline;
     width: 100%;
     justify-content: space-around;
     list-style-type: none;
-    border: 2px solid darkturquoise;
+    padding: 0%;
+}
 
-}
-ul{
+ul.main-menu li{
     display: inline;
+    margin-left: 2rem;
 }
-li{
-    display: inline;
+ul.main-menu li a{
+    letter-spacing: 0.2rem;
+    text-decoration: none;
+    color: black;
+}
+a.selected{
+    background-color: #65f1ff;
 }
 .message{
-    border: 10px solid violet;
-    max-width: 50%;
+    max-width: 40%;
     font-size: 7vw;
     line-height: 85%;
     position: relative;
+    margin: 6rem auto;
 }
 #ihope{
     text-align: left; 
