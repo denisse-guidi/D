@@ -1,0 +1,44 @@
+body{
+    font-family:'barlow';
+}
+header{
+    border: 2px solid salmon;
+}
+#brand{
+    border: 2px solid rgb(158, 37, 112);
+    display: inline;
+}
+
+.main-menu{
+    border: 2px solid darkturquoise;
+    display: inline;
+    width: 100%;
+    justify-content: space-around;
+    list-style-type: none;
+    border: 2px solid darkturquoise;
+
+}
+ul{
+    display: inline;
+}
+li{
+    display: inline;
+}
+.message{
+    border: 10px solid violet;
+    max-width: 50%;
+    font-size: 7vw;
+    line-height: 85%;
+    position: relative;
+}
+#ihope{
+    text-align: left; 
+}
+#youenjoy{
+    text-align: left;
+}
+#walk{
+    text-align: center;
+}
+
+}
