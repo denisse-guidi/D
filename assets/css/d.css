@@ -6,15 +6,21 @@ header{
     border-bottom: 3px solid rgb(0, 0, 0);
     padding: 0.4rem;
 }
+a{
+    text-decoration: none;
+}
 #brand{
     display: inline;
     font-size: 1.5rem;
+    position:relative;
+    left: 1.3rem;
 }
 nav{
     display: inline; 
     right: 2rem;
     position: absolute;
     top: 0.9rem;
+   
 }
 ul.main-menu{
     display: inline;
@@ -23,7 +29,6 @@ ul.main-menu{
     list-style-type: none;
     padding: 0%;
 }
-
 ul.main-menu li{
     display: inline;
     margin-left: 2rem;
@@ -52,5 +57,43 @@ a.selected{
 #walk{
     text-align: center;
 }
-
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 0.3rem;
+    max-width: 90%;
+    margin: auto;
+    margin-bottom: 3rem;
+  }
+.gallery img{
+    max-width: 33%;
+}
+.columna img {
+    margin-top: 8px;
+    vertical-align: top;
+  }
+  @media screen and (max-width: 1000px) {
+    .gallery img {
+      max-width: 49%;
+    }
+ @media screen and (max-width: 600px) {
+     .gallery img {
+       max-width: 100%;
+     }
+}
+}
+footer{
+    border-top: 3px solid rgb(0, 0, 0);
+}
+div.footer{
+    margin: auto;
+    width: 60%;
+}
+footer div div{
+    vertical-align: top;
+    text-align: center;
+}
+footer div div img{
+    max-width: 2rem;
+    margin: 0 0.5rem;
 }
