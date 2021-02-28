@@ -14,6 +14,7 @@ a{
     font-size: 1.5rem;
     position:relative;
     left: 1.3rem;
+    color: rgb(0, 0, 0);
 }
 nav{
     display: inline; 
@@ -22,6 +23,7 @@ nav{
     top: 0.9rem;
    
 }
+/* AQUI ACABA EL HEADER */
 ul.main-menu{
     display: inline;
     width: 100%;
@@ -76,12 +78,57 @@ a.selected{
     .gallery img {
       max-width: 49%;
     }
+}
  @media screen and (max-width: 600px) {
      .gallery img {
        max-width: 100%;
      }
 }
+h1.project-tittle{
+    width: 75%;
+    position: relative;
+    margin: 3rem auto 0.7rem;
+    font-weight:lighter;
+    font-size: 2rem;
 }
+p.project-description-1{
+    border: 1px solid rgb(8, 92, 92);
+    font-size: 1.3rem;
+    margin: 0.7rem auto;
+    width: 75%;
+}
+p.project-description-2{
+    border: 5px solid black;
+    font-size: 1.3rem;
+    padding: 2rem;
+}
+div.doble-columna{
+    border: 2px solid teal;
+    width: 75%;
+    position: 0 relative;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+@media screen and (max-width: 600px) {
+    div.columna-1 {
+      max-width: 100%;
+    }
+    div.columna-2 {
+        max-width: 100%;
+      }
+}
+.columna-1{
+    width: 50%;
+}
+.columna-2{
+    width: 50%;
+}
+.image-project{
+    width: 100%;
+    
+}
+/* AQUI COMIENZA EL FOOTER */
 footer{
     border-top: 3px solid rgb(0, 0, 0);
 }
