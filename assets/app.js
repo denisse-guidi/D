@@ -1,18 +1,23 @@
 $(document).ready(function () {
+  /*
   var popup = $('.js-popup');
   var popupButton = $('.js-toggle');
-  var menuToggle = $('.js-menu-toggle');
+  */
+  var menuToggle = $('.js-burger-is-open');
+  /*
   var accTrigger = $('.js-accordion');
   var accContent = $('.accordion-info');
 
   popupButton.click(function () {
     popup.toggleClass('open');
   });
-
+*/
   menuToggle.click(function () {
-    $('html').toggleClass('burger-is-open');
+    $('nav').toggleClass('burger-is-open');
+    $('#burger-open-svg').toggleClass('change-icon');
+    $('#burger-close-svg').toggleClass('change-icon');
   });
-
+/*
   accTrigger.click(function () {
     // Opción 1
     // $(this).siblings().slideToggle();
@@ -28,7 +33,7 @@ $(document).ready(function () {
 
   // Configuración de Librerías
 
-  AOS.init();
+ // AOS.init();
 
   $('.slider').slick({
     infinite: true,
@@ -60,9 +65,9 @@ $(document).ready(function () {
         }
       }
     ]
-  });
+  });*/
 });
 
 $(window).resize(function () {
-  $('html').removeClass('menu-is-open');
+  $('nav').removeClass('burger-is-open');
 });

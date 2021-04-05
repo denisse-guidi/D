@@ -86,6 +86,10 @@ a.selected{
     top: 0.8rem;
     right: 1.5rem;
 }
+.change-icon {
+    display: none !important;
+}
+
 /* AQUI ACABA EL HEADER */
 .message{
     max-width: 40%;
@@ -160,7 +164,7 @@ a.selected{
         justify-content: center;
         transition: all 0.2s ease-in-out;
     }
-    .burger-is-open {
+    nav.burger-is-open {
         top: 0%;
     }
     ul.main-menu li{
