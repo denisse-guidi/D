@@ -133,6 +133,9 @@ a.selected{
      h1 {
          font-size: 1.7rem;
      }
+     h2 {
+        font-size: 1.5rem;
+    }
  }
  @media (min-width:501px) {
     .burger-open {
@@ -157,7 +160,7 @@ a.selected{
         justify-content: center;
         transition: all 0.2s ease-in-out;
     }
-    .burger-is-open .nav {
+    .burger-is-open {
         top: 0%;
     }
     ul.main-menu li{
@@ -167,27 +170,38 @@ a.selected{
             margin: 1.5rem;
     }
 }
-h1.project-tittle{
+h1{
+    font-size: 2.3rem;
+    line-height: 30%;
+}
+h2 {
+    font-size: 2.3rem;
+    font-weight:lighter;
+    line-height: 30%;
+}
+h3 {
+    font-size: 1.7rem;
+    font-weight:lighter;
+    line-height: 50%;
+}
+h3.project-tittle{
     width: 75%;
     position: relative;
     margin: 2.3rem auto 0.7rem;
     font-weight:lighter;
-    font-size: 1.8rem;
+    font-size: 1.7rem;
 }
 p{
     font-size: 1.3rem;
 }
-p.project-description-1{
+div.sin-borde{
     margin: 0.7rem auto;
     width: 75%;
     margin-bottom: 3rem;
 }
-p.project-description-2{
-    border: 3px solid #000000;
-    box-sizing: border-box;
-    padding: 2rem;
-}
-p.project-description-3{
+div.una-columna{
+    width: 72%;
+    margin: 2rem auto;
     border: 3px solid #000000;
     box-sizing: border-box;
     padding: 2rem;
@@ -196,28 +210,54 @@ div.doble-columna{
     width: 75%;
     margin: 0 auto;
     display: flex;
+    margin-top: 4rem;
 }
-div.una-columna{
-    width: 75%;
+div.columna-1-border{
+    border: 3px solid #000000;
+    box-sizing: border-box;
+    padding: 2rem;
+}
+div.columna-2-border{
+border: 3px solid #000000;
+box-sizing: border-box;
+padding: 2rem;
+}
+div.imagen-columna{
+    width: 100%;
     margin: 0 auto;
     display: flex;
+    border: 0.8rem solid #000000;
+    box-sizing: border-box;
 }
 @media screen and (max-width: 820px) {
     div.doble-columna{
         display: block;
     }
-    div.columna-1 {
+    div.columna-1-border{
       width: 100%;
     }
-    div.columna-2 {
+    div.columna-2-border {
         width: 100%;
       }
 }
 .columna-1{
     width: 50%;
+    margin: 1.5rem;
 }
 .columna-2{
     width: 50%;
+    margin: 1.5rem;
+}
+.image-project{
+    width: 100%;
+}
+.columna-1-border{
+    width: 50%;
+    margin: 1.5rem;
+}
+.columna-2-border{
+    width: 50%;
+    margin: 1.5rem;
 }
 .image-project{
     width: 100%;
@@ -226,6 +266,7 @@ div.una-columna{
 footer{
     border-top: 3px solid rgb(0, 0, 0);
     margin-bottom: 3rem;
+    margin-top: 4rem;
 }
 div.footer{
     margin: auto;
@@ -237,6 +278,6 @@ footer div div{
 }
 footer div div div{
     max-width: 2rem;
-    margin: 0 0.5rem;
+    margin: 0 0.3rem;
     display: inline-block;
 }
