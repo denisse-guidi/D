@@ -94,11 +94,11 @@ a.selected{
 
 /* AQUI ACABA EL HEADER */
 .message{
-    max-width: 40%;
-    font-size: 7vw;
-    line-height: 85%;
+    max-width: 49%;
+    font-size: 8.3vw;
+    line-height: 87%;
     position: relative;
-    margin: 6rem auto;
+    margin: 9rem auto;
 }
 #ihope{
     text-align: left; 
@@ -127,7 +127,7 @@ h1{
 h2 {
     font-size: 2.3rem;
     font-weight:lighter;
-    line-height: 30%;
+    line-height: 90%;
 }
 h3 {
     font-size: 1.7rem;
