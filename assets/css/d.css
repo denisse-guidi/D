@@ -275,4 +275,7 @@ footer div div div{
     div.columna-2-border {
         width: 100%;
       }
+    div.columna-mid{
+       width: 100%; 
+    }
 }
